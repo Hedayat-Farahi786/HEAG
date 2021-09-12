@@ -1,0 +1,54 @@
+.details{
+  width: 100%;
+  height: 12vh;
+  padding: 0 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details__name{
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details__filename{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Ubuntu Mono', monospace;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.details__filename__input{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Ubuntu Mono', monospace;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: none;
+  width: 1ch;
+}
+
+.details__title{
+  color: #A0AABF;
+  font-size: .8rem;
+}
+.details__text{
+  font-size: .8rem;
+  margin-left: 10px;
+}
+.details__words,.details__characters{
+  display: flex;
+}
+
+.details__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+}

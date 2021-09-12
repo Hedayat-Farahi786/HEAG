@@ -1,0 +1,42 @@
+.markdown{
+  width: 50vw;
+  height: 80vh;
+}
+.markdown__top{
+  height: 5vh;
+  border: 1px solid #E8E8E8;
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+}
+.markdown__title{
+  color: #A0AABF;
+  font-size: 1rem;
+}
+.markdown__gutter{
+  background: #F0F0F0;
+  font-size: .9rem;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 1vw;
+  width: 10%;
+}
+.markdown__editor{
+  display: flex;
+}
+.markdown__line{
+  line-height: 1rem;
+}
+.markdown__textarea{
+  line-height: 1rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: .9rem;
+  padding: 1vh .5vw;
+  width: 90%;
+  height: 75vh;
+  border: none;
+  outline: none;
+  resize: none;
+}

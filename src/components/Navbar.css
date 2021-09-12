@@ -1,0 +1,39 @@
+.navbar{
+  height: 8vh;
+  background-color: #373D49;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  color: #fafafa;
+}
+
+.navbar__title{
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__title:hover{
+  color: #35D7BB;
+}
+
+.navbar__logo{
+  width: 1.8rem;
+  margin-right: .5rem;
+}
+
+.navbar__download{
+  color: #FAFAFA;
+  border: 1px solid #FAFAFA;
+  border-radius: .2rem;
+  background: none;
+  padding: .2rem .8rem;
+  cursor: pointer;
+  transition: transform 200ms linear;
+}
+
+.navbar__download:active{
+  transform: scale(0.9);
+}

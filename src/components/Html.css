@@ -1,0 +1,22 @@
+.html{
+  width: 50vw;
+  height: 80vh;
+}
+.html__top{
+  height: 5vh;
+  border: 1px solid #E8E8E8;
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+}
+.html__title{
+  color: #A0AABF;
+  font-size: 1rem;
+}
+.html__preview{
+  border-left: 1px solid #E8E8E8;
+  width: 100%;
+  height: 75vh;
+  padding: 1rem 3rem;
+  word-wrap: break-word;
+}
