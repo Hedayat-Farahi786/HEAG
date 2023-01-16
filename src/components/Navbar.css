@@ -1,6 +1,6 @@
 .navbar{
   height: 8vh;
-  background-color: #373D49;
+  background-color: rgb(235,0,0);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,11 +12,16 @@
   font-size: 1.5rem;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .navbar__title:hover{
   color: #35D7BB;
+}
+
+.title__small{
+  font-size: 16px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.856);
 }
 
 .navbar__logo{
@@ -32,8 +37,16 @@
   padding: .2rem .8rem;
   cursor: pointer;
   transition: transform 200ms linear;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar__download:active{
   transform: scale(0.9);
+}
+
+.icon{
+  width: 16px;
+  margin-right: 5px;
 }

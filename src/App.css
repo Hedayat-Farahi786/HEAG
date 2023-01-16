@@ -1,3 +1,7 @@
+.app{
+  overflow: hidden;
+}
 .app__editors{
   display: flex;
+  overflow: hidden;
 }

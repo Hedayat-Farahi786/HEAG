@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -18,8 +19,6 @@ code {
     monospace;
 }
 
-.app{
-  width: 100vw;
-  height: 100vh;
-  overflow: none;
+.result__line{
+  overflow: hidden;
 }
